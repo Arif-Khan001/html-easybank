@@ -1,0 +1,265 @@
+.banner-whole .picture{
+    width: 100vb;
+}
+a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+.navbar{
+    padding: 20px 20px ;
+    margin: 10px 10px;
+    display: flex;
+    padding: 10px 20px;
+
+    
+}
+.hamburger{
+    display: none;
+}
+
+.navbar-nav li{
+    display: inline;
+    margin-right: 20px;
+} 
+
+.navbar-nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.icon{
+    padding-top: 20px;
+    vertical-align: center;
+}
+
+.request-invite {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height : 40px;
+    width: 110px;
+}
+.request-invite > .btn{
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.banner-whole{
+    background-color: (0, 0%, 98%);
+    display: flex;
+}
+.mockups{
+    height: 100%;
+    width:  75%;
+}
+.invite{
+    margin: 120px 50px 20px 50px;
+}
+.request-invite-3 > .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 45%;
+    border-radius: 20px;
+    color: white;
+   list-style: none;
+}
+
+.banner-whole > .invite{
+    font-size: 200%;
+    }
+.banner-whole > .picture{
+    background-image: url("../images/bg-intro-desktop.png");
+    width: 200%;
+    height: 50%;
+    padding-left: 20%;
+}
+
+.to-choose{
+   
+    font-size: 125%;
+    padding: 10px 50px;
+}
+.why-easybank{
+    background-color: rgba(235, 235, 238, 0.726);
+}
+.points{
+    display: flex;
+    padding-right: 150px;
+    padding: 10px 50px;
+}
+.point{
+    padding: 20px 20px;
+}
+
+.articles{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 60px;
+
+}
+.article{
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: 50;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 5fr 2fr 2fr 6fr ;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding: 30px 50px 30px 50px;
+    margin: 0 50px 0 50px;
+}
+    .main-container{
+        background-color: rgb(93, 72, 141);
+    }
+
+
+  .footer-svg{
+    padding-top: 30px;
+  }
+
+  .request-invite-2 {
+    padding: 10px 50px;
+  }
+
+  .list  li{
+    list-style: none;
+    color: white;
+  }
+
+  .request-invite-2{
+    color: white;
+  }
+  .request-invite-2 > a{
+    list-style: none;
+    color: white;
+  }
+  .request-invite-2 > .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 35%;
+    border-radius: 15px;
+    margin-right: 100px;
+    text-decoration: none;
+  }
+  .list a{
+    text-decoration: none;
+    color: white;
+  }
+
+  #navbarMenu{
+    display: none;
+  }
+
+  .gradient-background {
+    background: linear-gradient(300deg, rgb(37, 37, 139), limegreen, #00FFFF);
+    background-size: 100% 100%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+.banner-whole > .invite{
+        width: 50%;
+      }
+
+      .navbar-menu {
+        display: flex;
+        gap: 10px;
+        list-style-type: none;
+        margin: 0;
+        padding: 30px 0px 15px 30px;
+    }
+      .navbar-menu > a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+  @media only screen and (max-width: 840px) {
+    .navbar-nav{
+      display: none;
+    }
+    div.request-invite{
+      display: none;
+     
+    }
+  
+    .hamburger{
+      display: flex;
+      justify-content: end;
+      padding: 0 75%;
+    }
+  
+  .banner-whole{
+      display: block;
+      width: 100vb;
+      flex-direction: column;
+  }
+  .banner-whole  img{
+    flex-grow: 1;
+      width: 100vb;
+      flex-direction: column;
+  }
+  
+    div.invite{
+      order: -1;
+      width: 100%;
+    } 
+  
+    div.mobile{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+  
+   div.container{
+          display: flex;
+          flex-direction: column;
+          padding: 0% 1% 0% 35%;
+          height: 65vb;
+  
+   }
+   .request-invite-2{
+      display: block;
+      margin-right: 50px;
+   }
+  
+   .banner-whole > .picture{
+      background-image: url('../images/bg-intro-mobile.svg');
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;   
+      padding: 0 30% 0 20%;
+  }
+  .banner-whole > .invite{
+    width: 50%;
+  }
+  .navbar-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; 
+    left: 50px;
+    right: 0;
+    background-color: white;
+    padding: 10px 50px 0 0 ;
+    z-index: 1000;
+}
+.active {
+    display: flex;
+  }
+} 
